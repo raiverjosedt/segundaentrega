@@ -1,0 +1,88 @@
+.contenedor{
+    
+    display: grid;
+    grid-template-areas:  
+    "encabezado encabezado encabezado encabezado"
+    "nav nav nav nav"
+    "div div section1 section1"
+    "section2 section2 aside aside"
+    "footer footer footer footer"
+    ;
+    background-image: url(/img/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    
+
+
+}
+
+header{
+    grid-area: encabezado;
+    text-align: center;
+    color: blue;
+
+}
+
+header:hover{
+    background-color: turquoise;
+    transition: 4s;
+}
+
+aside {
+    grid-area: aside;
+}
+
+div{
+    grid-area: div;
+}
+
+img {
+    width: 500px;
+}
+
+.section1{
+    grid-area: section1;
+    color: aquamarine;
+
+}
+
+.section2{
+    grid-area: section2;
+    color: aquamarine;
+}
+
+div {
+    color: aquamarine;
+}
+.carousel-inner{
+    width: 600px;
+}
+footer{
+    text-align: center;
+    grid-area: footer;
+    color: aquamarine;
+}
+
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+    color:red;
+    text-transform: uppercase;
+
+}
+
+a:hover{
+    background-color: turquoise;
+    transition: 4s;
+
+}
+
+nav {
+    grid-area: nav;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    color: blue;
+}
